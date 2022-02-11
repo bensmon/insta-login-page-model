@@ -1,0 +1,137 @@
+.loginpage{
+    position: absolute;
+    border: 1px solid black;
+    width: 30%;
+    height: 70%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.signup{
+    position: absolute;
+    border: 1px solid black;
+    width: 30%;
+    height: 12%;
+    margin-left: 35%; 
+    margin-top: 36%;
+}
+h1{
+    position: relative;
+    text-align: center;
+    transform: scale(1.8);
+    margin-top: 10%;
+    font-family: 'Lobster', cursive;
+    font-weight: initial;
+    
+}
+#name{
+    position: relative;
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgb(247, 242, 242);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+::placeholder{
+    color: black;
+    opacity: 0.6;
+}
+#password{
+    position: relative;
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgb(247, 242, 242);
+    border: 1px solid grey;
+    transform: translateY(-30px);
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(183, 224, 241);
+    font-weight: bold;
+    color: white;
+    
+}
+hr{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 30%;
+}
+.hr{
+    margin-top: 30px;
+    margin-left: 50%;
+    width: 100%;
+    transform: translateY(-30px);
+}
+.link p{
+    text-align: center;
+    transform: translateY(-57px);
+    font-weight: bold;
+    color: grey;
+
+}
+.link a{
+    position: absolute;
+    margin-left: 32%;
+    transform: translateY(-45px);
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(16, 7, 109);
+    
+}
+i{
+    background-color:  rgb(16, 7, 109);
+    color: white;
+    position: absolute;
+    transform: translate(106px,-45px);
+    padding-left: 5px;
+    padding-top: 3px;
+    height: 15px;
+    padding-right: 2px;
+}
+#a{
+    margin-left: 155px;
+    margin-top: 50px;
+    font-size: 80%;
+}
+.signup a{
+     position: absolute;
+     text-decoration: none;
+     color: black;
+     margin-left: 100px;
+     margin-top: 25px;
+}
+span{
+    color: rgb(16, 96, 245);
+    font-weight: bold;
+}
+button:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px black;
+}
+input:hover{
+    box-shadow: 2px 2px 10px black;
+    transition: 0.5s;
+}
+#a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+span:hover{
+    transform: scale(2);
+}
